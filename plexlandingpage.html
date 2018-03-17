@@ -50,7 +50,7 @@
 
         function checkServer() {
             var p = new Ping();
-            var server = plexrequest.schlenner.com; //Try to get it automagically, but you can manually specify this
+            var server = "plexrequest.schlenner.com"; //Try to get it automagically, but you can manually specify this
             var timeout = 3000; //Milliseconds
             var body = document.getElementsByTagName("body")[0];
             p.ping(server+":32400", function(data) {
